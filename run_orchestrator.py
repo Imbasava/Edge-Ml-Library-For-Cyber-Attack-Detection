@@ -10,6 +10,7 @@ import sys
 # Correct import for the package
 from src.network_security_suite.orchestrator import Orchestrator
 
+
 def main():
     """
     Sequential attack detection: Only loads ML models when traffic patterns
