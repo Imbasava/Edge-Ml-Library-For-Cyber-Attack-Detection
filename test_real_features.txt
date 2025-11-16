@@ -1,0 +1,6 @@
+# Create attack test data
+cat > test_attacks.txt << 'EOF'
+{"feature_type":"c2c","proto":"tcp","service":"unknown","duration":65.0,"orig_bytes":50,"resp_bytes":80,"conn_state":"SF","history":"ShAD","orig_pkts":3,"resp_pkts":2}
+{"feature_type":"mitm","ip_address":"192.168.1.100","features":[0.45, 200, 25.5, 2.1, 1, 150, 10, 1]}
+{"feature_type":"ddos","features":{"Packets_Per_Sec":2500.0,"Bytes_Per_Sec":2000000.0,"Flow_Duration":10.0,"Unique_IPs":300,"Port_Diversity":250,"TCP_Ratio":0.1,"UDP_Ratio":0.8,"SYN_Flag_Ratio":0.9,"ACK_Flag_Ratio":0.05}}
+EOF
