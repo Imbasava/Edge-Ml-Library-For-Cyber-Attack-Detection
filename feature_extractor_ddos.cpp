@@ -38,6 +38,7 @@ struct Stats {
             if(is_syn) syn++; if(is_ack) ack++;
         } else if(proto == 17) udp++;
         else if(proto == 1) icmp++;
+        
     }
 };
 
